@@ -1,10 +1,7 @@
 {
-  "name": "webpack-dev-demo",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "static-server": "http-server ./static-server -c-1 -p 34893",
+    "demo": "webpack-dev-server --open"
   },
   "keywords": [],
   "author": "",
@@ -12,5 +9,10 @@
   "dependencies": {
     "css-loader": "^0.23.1",
     "style-loader": "^0.13.1"
+  },
+  "devDependencies": {
+    "webpack": "4.8.3",
+    "webpack-cli": "3.3.6",
+    "webpack-dev-server": "3.7.2"
   }
 }
