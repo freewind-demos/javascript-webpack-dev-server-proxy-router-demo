@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "static-server": "http-server ./static-server -c-1 -p 34893",
+    "static-server": "http-server . -c-1 -p 34893",
     "demo": "webpack-dev-server --open"
   },
   "keywords": [],

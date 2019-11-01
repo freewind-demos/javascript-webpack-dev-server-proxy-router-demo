@@ -14,3 +14,5 @@ npm install
 npm run static-server
 npm run demo
 ```
+
+Open <http://localhost:????/data.json>

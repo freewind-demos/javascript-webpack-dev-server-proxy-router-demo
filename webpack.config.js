@@ -10,12 +10,10 @@ module.exports = {
         target: 'http://localhost:34893',
         changeOrigin: true,
         secure: false,
+        pathRewrite: {
+          '^': '/static-server'
+        },
       },
-      '/hello.js': {
-        target: 'http://localhost:34893',
-        changeOrigin: true,
-        secure: false,
-      }
     }
   }
 }
