@@ -13,6 +13,7 @@ module.exports = {
         pathRewrite: {
           '^': '/static-server'
         },
+        logLevel: 'debug'
       },
     }
   }
