@@ -1,18 +1,23 @@
 {
   "scripts": {
     "static-server": "http-server . -c-1 -p 34893",
-    "demo": "webpack-dev-server --open"
+    "start": "webpack-dev-server --open"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "css-loader": "^0.23.1",
-    "style-loader": "^0.13.1"
+    "css-loader": "^6.7.1",
+    "style-loader": "^3.3.1"
   },
   "devDependencies": {
-    "webpack": "4.8.3",
-    "webpack-cli": "3.3.6",
-    "webpack-dev-server": "3.7.2"
+    "@types/webpack": "^5.28.0",
+    "@types/webpack-dev-server": "^4.7.2",
+    "http-proxy-middleware": "^2.0.6",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.3",
+    "webpack": "5.72.0",
+    "webpack-cli": "4.9.2",
+    "webpack-dev-server": "4.8.1"
   }
 }
